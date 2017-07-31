@@ -4,7 +4,7 @@ from .config import Config
 
 class DevConfig(Config):
     """
-    Dev config for owllook
+    Dev config for demo02
     """
 
     # Application config
