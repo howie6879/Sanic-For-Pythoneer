@@ -1,10 +1,12 @@
+[![Documentation Status](https://readthedocs.org/projects/sanic-for-pythoner/badge/?version=latest)](http://sanic-for-pythoner.readthedocs.io/zh_CN/latest)
+
 ## Sanic-For-Pythoner
 
 > 这是一份记录文档，是我日常对`Sanic`使用过程中一些问题的记录
 >
 > 虽说是大杂烩，但我也会尽量使其连贯，或许能使一些人在使用Sanic的过程中少走一些弯路
 >
-> 可根据需求跳跃阅读
+> 可根据需求跳跃阅读，在线[地址](http://sanic-for-pythoner.readthedocs.io/zh_CN/latest)
 
 ### 1.介绍
 
