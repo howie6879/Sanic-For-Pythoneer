@@ -6,14 +6,16 @@
 Sanic-For-Pythoner
 ==============================================
 
+.. rubric:: 一篇sanic使用教程
+
+.. sidebar:: 关于
+
+    * **Blog**: `sanic-howie6879 <http://blog.howie6879.cn/tags/sanic/>`_
+    * **Source code**: `Sanic-For-Pythoner <https://github.com/howie6879/Sanic-For-Pythoner>`_
+
+
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: Contents:
 
    docs/part1/index
-
-
-Indices and tables
-==================
-
-* :ref:`search`
