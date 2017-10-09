@@ -7,7 +7,7 @@ Sanic-For-Pythoner
 ==============================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: Contents:
 
    docs/part1/index
@@ -16,6 +16,4 @@ Sanic-For-Pythoner
 Indices and tables
 ==================
 
-* :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`

@@ -21,11 +21,9 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
-# import sphinx_rtd_theme
+import sphinx_rtd_theme
 from recommonmark.parser import CommonMarkParser
 
-# html_theme = "sphinx_rtd_theme"
-# html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 # -- General configuration ------------------------------------------------
 
@@ -79,7 +77,8 @@ language = 'zh_CN'
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This patterns also effect to html_static_path and html_extra_path
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+exclude_patterns = ['_build', 'Thumbs.db',
+                    '.DS_Store', 'examples', 'README.md']
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
@@ -93,7 +92,9 @@ todo_include_todos = False
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
+# Activate the theme.
+html_theme = 'sphinx_rtd_theme'
+html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -127,6 +128,22 @@ latex_elements = {
     # Additional stuff for the LaTeX preamble.
     #
     # 'preamble': '',
+    'preamble': r'''
+    \hypersetup{unicode=true}
+    \usepackage{CJKutf8}
+    \DeclareUnicodeCharacter{00A0}{\nobreakspace}
+    \DeclareUnicodeCharacter{2203}{\ensuremath{\exists}}
+    \DeclareUnicodeCharacter{2200}{\ensuremath{\forall}}
+    \DeclareUnicodeCharacter{2286}{\ensuremath{\subseteq}}
+    \DeclareUnicodeCharacter{2713}{x}
+    \DeclareUnicodeCharacter{27FA}{\ensuremath{\Longleftrightarrow}}
+    \DeclareUnicodeCharacter{221A}{\ensuremath{\sqrt{}}}
+    \DeclareUnicodeCharacter{221B}{\ensuremath{\sqrt[3]{}}}
+    \DeclareUnicodeCharacter{2295}{\ensuremath{\oplus}}
+    \DeclareUnicodeCharacter{2297}{\ensuremath{\otimes}}
+    \begin{CJK}{UTF8}{gbsn}
+    \AtEndDocument{\end{CJK}}
+    ''',
 
     # Latex figure (float) alignment
     #
