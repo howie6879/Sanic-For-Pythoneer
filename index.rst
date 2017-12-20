@@ -19,3 +19,4 @@ Sanic-For-Pythoner
    :caption: Contents:
 
    docs/part1/index
+   docs/part2/index
