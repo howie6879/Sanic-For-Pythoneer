@@ -1,6 +1,6 @@
 [![Documentation Status](https://readthedocs.org/projects/sanic-for-pythoneer/badge/?version=latest)](http://sanic-for-pythoneer.readthedocs.io/en/latest/)
 
-## Sanic-For-Pythoner
+## Sanic-For-Pythoneer
 
 > 这是一份记录文档，是我日常对`Sanic`使用过程中一些问题的记录
 >
