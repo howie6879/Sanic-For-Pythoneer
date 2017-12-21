@@ -9,7 +9,7 @@ if "%SPHINXBUILD%" == "" (
 )
 set SOURCEDIR=.
 set BUILDDIR=_build
-set SPHINXPROJ=Sanic-For-Pythoner
+set SPHINXPROJ=Sanic-For-Pythoneer
 
 if "%1" == "" goto help
 

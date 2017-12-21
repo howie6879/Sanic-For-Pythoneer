@@ -4,7 +4,7 @@
 # You can set these variables from the command line.
 SPHINXOPTS    =
 SPHINXBUILD   = sphinx-build
-SPHINXPROJ    = Sanic-For-Pythoner
+SPHINXPROJ    = Sanic-For-Pythoneer
 SOURCEDIR     = .
 BUILDDIR      = _build
 
