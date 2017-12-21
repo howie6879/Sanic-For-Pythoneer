@@ -1,4 +1,4 @@
-；；[![Documentation Status](https://readthedocs.org/projects/sanic-for-pythoneer/badge/?version=latest)](http://sanic-for-pythoneer.readthedocs.io/en/latest/)
+[![Documentation Status](https://readthedocs.org/projects/sanic-for-pythoneer/badge/?version=latest)](http://sanic-for-pythoneer.readthedocs.io/en/latest/)
 
 ## Sanic-For-Pythoner
 
