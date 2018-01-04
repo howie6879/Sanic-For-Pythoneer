@@ -1,20 +1,23 @@
 #!/usr/bin/env python
-from sanic import Sanic
-from sanic.response import json, text, html
+import sys
+
 from feedparser import parse
 from jinja2 import Environment, PackageLoader, select_autoescape
+from sanic import Blueprint
+from sanic.response import html, json
 
-import sys
+from src.config import CONFIG
 
 # https://github.com/channelcat/sanic/blob/5bb640ca1706a42a012109dc3d811925d7453217/examples/jinja_example/jinja_example.py
 # 开启异步特性  要求3.6+
 enable_async = sys.version_info >= (3, 6)
 
-app = Sanic()
+json_bp = Blueprint('rss_json', url_prefix='json')
+json_bp.static('/statics/rss_json', CONFIG.BASE_DIR + '/statics/rss_json')
 
 # jinjia2 config
 env = Environment(
-    loader=PackageLoader('views.rss', '../templates'),
+    loader=PackageLoader('views.rss_json', '../templates/rss_json'),
     autoescape=select_autoescape(['html', 'xml', 'tpl']),
     enable_async=enable_async)
 
@@ -25,8 +28,13 @@ async def template(tpl, **kwargs):
     return html(rendered_template)
 
 
-@app.route("/")
+@json_bp.route("/")
 async def index(request):
+    return await template('index.html')
+
+
+@json_bp.route("/index")
+async def rss_json(request):
     url = "http://blog.howie6879.cn/atom.xml"
     feed = parse(url)
     articles = feed['entries']
@@ -34,18 +42,3 @@ async def index(request):
     for article in articles:
         data.append({"title": article["title_detail"]["value"], "link": article["link"]})
     return json(data)
-
-
-@app.route("/html")
-async def rss_html(request):
-    url = "http://blog.howie6879.cn/atom.xml"
-    feed = parse(url)
-    articles = feed['entries']
-    data = []
-    for article in articles:
-        data.append({
-            "title": article["title_detail"]["value"],
-            "link": article["link"],
-            "published": article["published"]
-        })
-    return await template('rss.html', articles=data)

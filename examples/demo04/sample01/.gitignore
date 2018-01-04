@@ -1,13 +1,12 @@
 # file
 *.pyc
+*.ini
 *.log
 tags
 .DS_Store
-
 # dir
 __pycache__/
 .vscode/
-_build/
-_static/
-_templates/
-.idea/
+build/
+dist/
+*.egg-info/
