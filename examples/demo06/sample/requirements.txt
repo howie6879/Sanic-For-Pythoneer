@@ -1,3 +1,5 @@
+asyncio_redis
+jinja2
 feedparser
 sanic
-jinja2
+aiocache
