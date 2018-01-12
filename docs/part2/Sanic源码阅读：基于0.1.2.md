@@ -10,7 +10,7 @@
 
 将Sanic-0.1.2阅读完后的一些建议，我觉得你应该有以下基础再阅读源码才会理解地比较好：
 
-- 理解[装饰器](http://blog.howie6879.cn/post/04/)
+- 理解[装饰器](https://github.com/howie6879/Sanic-For-Pythoneer/blob/master/docs/part2/%E9%99%84%E5%BD%95%EF%BC%9A%E5%85%B3%E4%BA%8E%E8%A3%85%E9%A5%B0%E5%99%A8.md)，见附录
 - 理解协程
 
 Sanic-0.1.2 的核心文件如下：
