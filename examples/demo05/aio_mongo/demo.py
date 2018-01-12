@@ -33,7 +33,7 @@ def singleton(cls):
 
 class MotorBaseOld:
     """
-    默认实现了一个db只创建一次，缺点是更换db麻烦
+    默认实现了一个db只创建一次，缺点是更换集合麻烦
     """
     _db = None
     MONGODB = MONGODB
