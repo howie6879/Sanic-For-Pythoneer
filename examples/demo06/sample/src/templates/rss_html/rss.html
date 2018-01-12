@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>rss阅读</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://github.com/sindresorhus/github-markdown-css/blob/gh-pages/github-markdown.css">
+    <link rel="stylesheet" href="/statics/rss_html/css/main.css">
+</head>
+<body>
+<article class="markdown-body">
+    {% for article in articles %}
+    <b><a href="{{article.link}}">{{article.title}}</a></b><br/>
+    <i>{{article.published}}</i><br/>
+    <hr/>
+    {% endfor %}
+</article>
+</body>
+</html>
