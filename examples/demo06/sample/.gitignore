@@ -9,4 +9,5 @@ __pycache__/
 .vscode/
 build/
 dist/
+.cache/
 *.egg-info/
