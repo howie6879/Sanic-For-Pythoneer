@@ -17,7 +17,7 @@ html_bp.static('/statics/rss_html', CONFIG.BASE_DIR + '/statics/rss_html')
 
 # jinjia2 config
 env = Environment(
-    loader=PackageLoader('views.rss_html', '../templates/rss_html'),
+    loader=PackageLoader('src.views.rss_html', '../templates/rss_html'),
     autoescape=select_autoescape(['html', 'xml', 'tpl']),
     enable_async=enable_async)
 

@@ -17,7 +17,7 @@ json_bp.static('/statics/rss_json', CONFIG.BASE_DIR + '/statics/rss_json')
 
 # jinjia2 config
 env = Environment(
-    loader=PackageLoader('views.rss_json', '../templates/rss_json'),
+    loader=PackageLoader('src.views.rss_json', '../templates/rss_json'),
     autoescape=select_autoescape(['html', 'xml', 'tpl']),
     enable_async=enable_async)
 

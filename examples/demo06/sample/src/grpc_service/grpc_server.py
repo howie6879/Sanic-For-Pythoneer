@@ -19,7 +19,6 @@ GRPC_SERVER_SLEEP_SECONDS = CONFIG.GRPC_SERVER_SLEEP_SECONDS
 class Hello(hello_pb2_grpc.HelloServicer):
     def hello_action(self, request, context):
         data = request.action
-        print(data)
         ip = context.peer()
         print(data, ip)
         reply = hello_pb2.HelloResponse(message=data)
