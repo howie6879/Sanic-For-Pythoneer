@@ -149,19 +149,12 @@ except:
 不要小看这一个小小的demo，执行一下，竟然涉及到下面这么多个文件，让我们总结一下：
 
 - [sanic.py](https://github.com/howie6879/sanic_annotation/blob/master/sanic_0_1_2/src/sanic.py)
-
 - [server.py](https://github.com/howie6879/sanic_annotation/blob/master/sanic_0_1_2/src/server.py)
-
 - [router.py](https://github.com/howie6879/sanic_annotation/blob/master/sanic_0_1_2/src/router.py)
-
 - [request.py](https://github.com/howie6879/sanic_annotation/blob/master/sanic_0_1_2/src/request.py)
-
 - [response.py](https://github.com/howie6879/sanic_annotation/blob/master/sanic_0_1_2/src/response.py)
-
 - [exceptions.py](https://github.com/howie6879/sanic_annotation/blob/master/sanic_0_1_2/src/exceptions.py)
-
 - [config.py](https://github.com/howie6879/sanic_annotation/blob/master/sanic_0_1_2/src/config.py)
-
 - [log.py](https://github.com/howie6879/sanic_annotation/blob/master/sanic_0_1_2/src/log.py)
 
 除去`__init__.py`，`Sanic`项目一共就10个文件，这个小demo不显山不露水地竟然用到了8个，虽然其中几个没有怎么用到，但也足够说明，你如果理解了这个demo，`Sanic`的运行逻辑以及框架代码你已经了解地很深入了

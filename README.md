@@ -6,11 +6,11 @@
 >
 > 虽说是大杂烩，但我也会尽量使其连贯，或许能使一些人在使用Sanic的过程中少走一些弯路
 >
-> 可根据需求跳跃阅读，在线[地址](http://sanic-for-pythoneer.readthedocs.io/en/latest/)
+> 可根据需求跳跃阅读，**gitbook**在线[地址](https://www.gitbook.com/book/howie6879/sanic/details)
 
 ### 1.介绍
 
-**Sanic**是一个可以使用 `async/await` 语法编写项目的异步非阻塞框架，它写法类似于`Flask` ，但使用了异步特性，而且还使用 `uvloop` 作为事件循环，其底层使用的是**libuv**，从而使 `Sanic` 的速度优势更加明显
+**[Sanic](https://github.com/channelcat/sanic)**是一个可以使用 `async/await` 语法编写项目的异步非阻塞框架，它写法类似于`Flask` ，但使用了异步特性，而且还使用 `uvloop` 作为事件循环，其底层使用的是**libuv**，从而使 `Sanic` 的速度优势更加明显
 
 我于2017年2月份就开始使用 `Sanic`，使用过程中确实遇到不少问题，如缓存、模板引入、session、认证...
 
