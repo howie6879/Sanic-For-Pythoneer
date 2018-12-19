@@ -37,6 +37,6 @@
 
 ### 3.说明
 
-如果你在使用中有什么不明白的问题，欢迎一起交流，请先扫一扫下面二维码加我（备注Sanic），我拉您进微信群一起探讨：
+如果你在使用中有什么不明白的问题，欢迎一起交流：
 
-<img src="./images/wechat.png" width = "400" height = "400" alt="sanic_group" align=center />
+![](https://ws1.sinaimg.cn/large/007i3XCUgy1fyamp8ip6cj309k09kdfs.jpg)
