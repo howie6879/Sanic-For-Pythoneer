@@ -3,7 +3,7 @@
 ## Sanic-For-Pythoneer
 
 > 这是一份记录文档，是我日常使用`Sanic`的一些经验之谈，希望能让你在使用Sanic的过程中少走一些弯路，会**持续更新**
-> 可根据需求跳跃阅读，**gitbook**在线[地址](https://www.gitbook.com/book/howie6879/sanic/details)
+> 可根据需求跳跃阅读，**gitbook**在线[地址](https://howie6879.gitbooks.io/sanic/)
 
 ### 1.介绍
 
