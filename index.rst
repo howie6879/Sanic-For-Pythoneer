@@ -10,7 +10,8 @@ Sanic-For-Pythoneer
 
 .. sidebar:: 关于
 
-    * **Blog**: `sanic-howie6879 <http://blog.howie6879.cn/tags/sanic/>`_
+    * **Blog**: `sanic-howie6879 <http://www.howie6879.cn/tags/sanic/>`_
+    * **公众号**: `老胡的储物柜 <https://ws1.sinaimg.cn/large/007i3XCUgy1fyamp8ip6cj309k09kdfs.jpg>`_
     * **Source code**: `Sanic-For-Pythoneer <https://github.com/howie6879/Sanic-For-Pythoneer>`_
 
 
