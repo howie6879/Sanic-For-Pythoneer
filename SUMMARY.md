@@ -6,7 +6,7 @@
    * [4.展示一个页面](./docs/part1/4.展示一个页面.md)
    * [5.数据库使用](./docs/part1/5.数据库使用.md)
    * [6.常用的技巧](./docs/part1/6.常用的技巧.md)
-   * [7.可靠的拓展](./docs/part1/7.可靠的拓展.md)
+   * [7.可靠的拓展](./docs/part1/7.可靠的扩展.md)
    * [8.测试与部署](./docs/part1/8.测试与部署.md)
 * [第二部分：源码及附录](./docs/part2/README.md)
    * [Sanic源码阅读：基于0.1.2](./docs/part2/Sanic源码阅读：基于0.1.2.md)
