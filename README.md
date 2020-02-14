@@ -2,8 +2,9 @@
 
 ## Sanic-For-Pythoneer
 
-> 这是一份记录文档，是我日常使用`Sanic`的一些经验之谈，希望能让你在使用Sanic的过程中少走一些弯路，会**持续更新**
-> 可根据需求跳跃阅读，**gitbook**在线[地址](https://howie6879.gitbooks.io/sanic/)
+- 这是一份记录文档，是我日常使用`Sanic`的一些经验之谈，希望能让你在使用Sanic的过程中少走一些弯路
+- 可根据需求跳跃阅读
+- **gitbook**在线阅读[地址](https://howie6879.gitbooks.io/sanic/)
 
 ### 1.介绍
 
@@ -39,6 +40,8 @@
 
 如果您在使用中有什么不明白的问题，欢迎一起交流（扫码关注，发送：Sanic可获取本书PDF版）：
 
-<center class="half">
-    <img width="300px" height="300px" src="https://raw.githubusercontent.com/howie6879/howie6879.github.io/img/pictures/20190529083905.png" /><img height="200px" src="https://raw.githubusercontent.com/howie6879/oss/master/images/我的Python世界.png" />
-</center>
+<div align=center><img width="300px" height="300px" src="https://raw.githubusercontent.com/howie6879/howie6879.github.io/img/pictures/20190529083905.png" /></div>
+
+我也创建了一个免费的Python知识星球，欢迎大家一起交流：
+
+<div align=center><img height="200px" src="https://raw.githubusercontent.com/howie6879/oss/master/images/我的Python世界.png" /></div>
