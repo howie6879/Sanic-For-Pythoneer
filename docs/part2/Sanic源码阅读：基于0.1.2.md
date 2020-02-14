@@ -244,3 +244,5 @@ app.register_blueprint(blueprint2)
 
 - 注解地址：[sanic_annotation](https://github.com/howie6879/sanic_annotation)
 - 博客地址：[http://blog.howie6879.cn/post/31/](http://blog.howie6879.cn/post/31/)
+
+![](https://raw.githubusercontent.com/howie6879/oss/master/images/扫码_搜索联合传播样式-白色版.jpg)

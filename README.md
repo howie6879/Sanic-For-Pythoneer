@@ -23,7 +23,7 @@
 - [x] [4.展示一个页面](./docs/part1/4.展示一个页面.md)
 - [x] [5.数据库使用](./docs/part1/5.数据库使用.md)
 - [x] [6.常用的技巧](./docs/part1/6.常用的技巧.md)
-- [ ] [7.可靠的扩展](./docs/part1/7.可靠的扩展.md)
+- [x] [7.可靠的扩展](./docs/part1/7.可靠的扩展.md)
 - [x] [8.测试与部署](./docs/part1/8.测试与部署.md)
 
 **第二部分：源码及附录**
@@ -39,4 +39,4 @@
 
 如果你在使用中有什么不明白的问题，欢迎一起交流：
 
-![](https://ws1.sinaimg.cn/large/007i3XCUgy1fyamp8ip6cj309k09kdfs.jpg)
+![](https://raw.githubusercontent.com/howie6879/oss/master/images/扫码_搜索联合传播样式-白色版.jpg)
