@@ -243,6 +243,5 @@ app.register_blueprint(blueprint2)
 本人技术微末，若有错误，请指出，不胜感激.
 
 - 注解地址：[sanic_annotation](https://github.com/howie6879/sanic_annotation)
-- 博客地址：[http://blog.howie6879.cn/post/31/](http://blog.howie6879.cn/post/31/)
 
 <div align=center><img width="300px" height="300px" src="https://raw.githubusercontent.com/howie6879/howie6879.github.io/img/pictures/20190529083905.png" /></div>
