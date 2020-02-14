@@ -37,6 +37,8 @@
 
 ### 3.说明
 
-如果你在使用中有什么不明白的问题，欢迎一起交流：
+如果您在使用中有什么不明白的问题，欢迎一起交流（扫码关注，发送：Sanic可获取本书PDF版）：
 
-![](https://raw.githubusercontent.com/howie6879/oss/master/images/扫码_搜索联合传播样式-白色版.jpg)
+<center class="half">
+    <img width="300px" height="300px" src="https://raw.githubusercontent.com/howie6879/howie6879.github.io/img/pictures/20190529083905.png" /><img height="200px" src="https://raw.githubusercontent.com/howie6879/oss/master/images/我的Python世界.png" />
+</center>
