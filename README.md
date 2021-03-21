@@ -4,7 +4,7 @@
 
 - 这是一份记录文档，是我日常使用`Sanic`的一些经验之谈，希望能让你在使用Sanic的过程中少走一些弯路
 - 可根据需求跳跃阅读
-- **gitbook**在线阅读[地址](https://howie6879.gitbooks.io/sanic/)
+- 在线阅读[地址](https://www.howie6879.cn/sanic_book/)
 
 ### 1.介绍
 
