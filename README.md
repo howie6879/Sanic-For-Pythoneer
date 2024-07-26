@@ -40,7 +40,7 @@
 
 如果您在使用中有什么不明白的问题，欢迎一起交流（扫码关注，发送：Sanic可获取本书PDF版）：
 
-<div align=center><img width="300px" height="300px" src="https://cdn.jsdelivr.net/gh/howie6879/oss/uPic/weekly_db_demo.jpg" /></div>
+<div align=center><img src="https://cdn.jsdelivr.net/gh/howie6879/weekly/src/statics/wechat.jpeg"  width="85%" alt="img" /></div>
 
 我也创建了一个免费的Python知识星球，欢迎大家一起交流：
 
